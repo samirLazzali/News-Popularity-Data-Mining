@@ -1,0 +1,45 @@
+###############################
+##### Remarques générales #####
+###############################
+
+- avoir plus de recul et de réflexion sur le sujet, le fond
+- mieux légender notamment les axes des graphiques, brouillon
+
+################################
+##### Remarques par partie #####
+################################
+
+##### Text mining #####
+- acp/kmeans explications fragmentées. On ne dit pas vraiment pourquoi on veut faire des kmeans. 
+ACP sert pas à grand chose pcq Word2Vec fait déjà le taf, leur but est le même.
+Démarche pas fausse, mais pas la meilleure.
+Mais si on choisit tout de même cette démarche, mieux la faire
+
+##### Analyse de sentiments #####
+- histogrammes faire plus de tranches
+- aller plus loin dans comparaison brut/lemmatisé
+Exemple brocoli conclusion pas si évidente (mieux lemm ou brut ?)
+Prendre un échantillon de textes et voir moi-même quel est le mieux,
+lequel donne les meilleurs scores
+
+##### Modélisation #####
+- modèles théoriques bien expliqués mais s'arrêtent brut une fois les résultats sortis. Mieux interpréter et commenter les résultats
+- Interprétabilité : ajouter de l'interprétabilité pour répondre au besoin métier (proposer l'étude à mashable pour augmenter la popularité de leurs articles blabla)
+Pour cela, pas forcément besoin d'un bon modèle de prédiction (si statistiquement significatif, ça suffit)
+Dans ce cas, on privilégie le côté explicatif que prédictif.
+Aussi, dans le cadre d'algo plus ML (donc sans significativité explicite des coeff), le fait qu'il n'y ait pas de surapprentissage montre que c'est potentiellement explicatif (le modèle n'a pas appris le bruit mais bien les corrélations entre variables)
+
+##########################
+##### Pour plus tard #####
+##########################
+
+##### Pour la présentation #####
+- support métier
+- discours métier/technique
+
+##### Améliorer #####
+- Améliorer données (nombre de mots ? Nombre de mots par phrase etc.) et modèles
+- Bonne problématique, mais mentionner ce qu'il nous manque (heure etc.)
+Pas grave si on en parle et qu'on sait pourquoi notre modèle est pas bon
+
+- Rien compris à ce qu'il a raconté à la fin avec les thèmes, la dualité, le second niveau de lecture
